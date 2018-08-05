@@ -63,4 +63,8 @@ $( document ).ready(function() {
     randTotal = randTotal - randNum4;
     $("#target-score").text(randTotal);
     checkforGameLost();
+}).on("click","#rules",function(){
+    $("#myModal").show();
+}).on("click", ".close", function(){
+    $("#myModal").hide();
 });
