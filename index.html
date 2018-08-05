@@ -1,0 +1,37 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <div id="heading">Crystal Countdown</div>
+        <div id="scoreboard">
+            <div>Wins:  <span id = "wins"></span></div>
+            <div>Losses:  <span id = "losses"></span></div>
+        </div>
+        <div id="target-score-container">
+            <div id="target-score"></div>
+            <img id = "target-score-img" src="assets/images/green.png">
+        </div>
+        <div id="crystal-group">
+            <img id = "crystal1" class="crystal" src="assets/images/yellow.gif">
+            <img id = "crystal2" class="crystal" src="assets/images/orange.gif">
+            <img id = "crystal3" class="crystal" src = "assets/images/white.gif">
+            <img id = "crystal4" class="crystal" src="assets/images/purple.gif">
+        </div>
+    </div>
+    <audio id="loser-sound" src ="assets/audio/Oops.mp3"></audio>
+    <audio id="winner-sound" src = "assets/audio/yes_2.wav"></audio>
+    <audio></audio>
+        <script src="assets/javascript/game.js"></script>
+        
+</body>
+</html>
