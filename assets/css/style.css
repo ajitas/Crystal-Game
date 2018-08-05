@@ -63,6 +63,7 @@
 #wins, #losses {
     font-weight:bolder;
     font-size:40px;
+    font-family: 'Ruslan Display', cursive;
 }
 
 #scoreboard>div {
@@ -91,10 +92,10 @@
 #target-score {
     position:absolute;
     width:200px;
-    padding-top:65px;
+    padding-top:75px;
     padding-bottom:60px;
     color:black;
-    font-size:70px;
+    font-size:60px;
     font-family: 'Ruslan Display', cursive;
     z-index:2;
     display:inline-block;
