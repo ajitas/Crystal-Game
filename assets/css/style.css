@@ -36,7 +36,7 @@
 
 }
 .close {
-    color: #aaaaaa;
+    color:white;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -51,10 +51,12 @@
     color:white;
     margin: auto;
     padding: 20px;
+    margin-bottom:30px;
     line-height: 30px;
     border: 1px solid #888;
     width: 80%;
     font-size:24px;
+    box-shadow: 0 5px 40px white ;
 }
 
 
@@ -69,7 +71,7 @@
 
 #scoreboard {
     background-color:black;
-    box-shadow: 0 5px 30px white,0 5px 30px white ;
+    box-shadow: 0 5px 40px white ;
     display:inline-block;
 }
 
