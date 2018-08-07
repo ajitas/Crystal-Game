@@ -27,6 +27,9 @@ Learning jQuery: Click event handlers, dymanically creating html elements and as
 -->
 1. HTML
 2. CSS
+    * animation
+    * box-shadow
+    * text-shadow
 3. Javascript
     * control structure
     * data structures
